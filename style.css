@@ -16,7 +16,7 @@ body {
 
 .container {
   margin-top: 130px;
-  margin-bottom: 0px;
+  margin-bottom: 130px;
   z-index: 10000;
 }
 .monthly-boards-container {
@@ -108,6 +108,11 @@ h1 {
   justify-content: center;
   font-size: 18px;
   opacity: 0.7;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  margin-top: 200px;
+  z-index: 1000000;
 }
 
 .header {
@@ -122,4 +127,21 @@ h1 {
   justify-content: center;
   text-align: center;
   opacity: 0.8;
+}
+
+#header-feb,
+#footer-feb {
+  background-color: #3560a0;
+  margin: 0;
+}
+
+.fa-arrow-circle-left {
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.4;
+  position: fixed;
+  left: 30px;
+  top: 45px;
+  align-items: center;
+  justify-content: center;
 }
