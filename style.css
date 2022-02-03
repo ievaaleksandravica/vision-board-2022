@@ -10,19 +10,23 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   margin: 0;
+  background-color: #d8d8d8;
 }
 
+.container {
+  margin-top: 130px;
+  margin-bottom: 0px;
+  z-index: 10000;
+}
 .monthly-boards-container {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: space-between;
   max-width: 1400px;
-  max-height: 900px;
-  height: 800px;
+  margin: 20px 0;
 }
 
 .monthly {
@@ -37,33 +41,85 @@ body {
   margin: 20px;
   border-radius: 10px;
   background-size: cover;
-  opacity: 0.6;
   background-repeat: cover;
   object-fit: cover;
   background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+}
+
+.monthly:hover {
+  transform: scale(1.05);
+  transition: 1s ease-in-out;
+}
+
+.monthly img:hover {
+  opacity: 0.9;
+  transition: 0.5s ease-in-out;
+}
+
+.monthly img {
+  opacity: 0.7;
 }
 
 .monthly a {
   font-family: inherit;
   text-decoration: none;
   font-size: 3rem;
-  color: #5b0808;
+  color: #fff;
   font-weight: bolder;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.9);
   padding: 20px;
   border-radius: 10px;
   z-index: 100;
-  opacity: 0.9;
+  position: absolute;
+  margin: 0 auto;
+  opacity: 0.4;
+  background-color: #000022;
+}
+
+.monthly.current a {
+  opacity: 0.8;
+}
+
+.monthly.current img {
+  opacity: 1;
+  object-fit: cover;
+  width: 400px;
+  height: 300px;
 }
 
 h1 {
   max-width: 1400px;
   text-align: center;
   font-size: 4rem;
-  margin-bottom: 4px;
-  margin-top: 0px;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  color: #ffff;
+}
+
+.footer {
+  height: 120px;
+  width: 100vw;
+  background-color: #000022;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 120px;
+  background-color: #000022;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   opacity: 0.8;
-  padding-top: 0;
 }
