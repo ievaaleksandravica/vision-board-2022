@@ -129,12 +129,6 @@ h1 {
   opacity: 0.8;
 }
 
-#header-feb,
-#footer-feb {
-  background-color: #3560a0;
-  margin: 0;
-}
-
 .fa-arrow-circle-left {
   color: #fff;
   font-size: 2rem;
@@ -162,9 +156,13 @@ h1 {
   width: 250px;
   object-fit: cover;
   border-radius: 20px;
-  opacity: 0.9;
+  opacity: 0.5;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
   margin: 20px;
+}
+
+.done {
+  opacity: 1;
 }
 
 .image {
@@ -188,11 +186,20 @@ h1 {
   top: 45%;
   transform: translate(-50%, -50%);
   display: none;
+  color: #fff;
 }
 
 .feb {
   background-color: #3560a0;
-  color: #fff;
+}
+
+.mar {
+  background-color: #910d8f;
+}
+
+.header,
+.footer {
+  margin: 0;
 }
 
 .image:hover .description {
