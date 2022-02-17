@@ -145,3 +145,62 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+
+.image-container {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  scale: 1;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-src {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  opacity: 0.9;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
+  margin: 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.description {
+  width: 230px;
+  height: 45px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
+  display: flex;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border-radius: 20px;
+  position: absolute;
+  padding: 10px;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.feb {
+  background-color: #3560a0;
+  color: #fff;
+}
+
+.image:hover .description {
+  display: block;
+}
+
+.image:hover {
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+  opacity: 1;
+}
