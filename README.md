@@ -1,5 +1,5 @@
 #### Vision Board 2022
-<img width="476" alt="image" src="https://user-images.githubusercontent.com/79845207/189082477-ce93d52c-2c3b-41d8-b20b-bb0ab5eec92f.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/79845207/189083000-ad74e6ff-2af7-4c0c-bf89-76b1b8352219.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/79845207/156344103-87fe6018-3d75-4543-afb2-5ea1fbabd43d.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/79845207/160849168-3f4e8b60-f268-4140-846e-af598ad8adba.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/79845207/166984490-95318732-0044-4709-bd0d-e0ecd19a7f4d.png">
